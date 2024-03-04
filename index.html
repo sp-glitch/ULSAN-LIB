@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="title" content="울산대학교 중앙도서관">
+    <meta name="description" content="울산대학교 중앙도서관">
+
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+    <title>울산대학교 중앙도서관</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+    <!-- <link rel="stylesheet" href="./css/slick.css"> -->
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/hamburgers.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    <!-- <script src="./js/slick.min.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/custom.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <header id="header">
+            <div class="inner">
+                <h1>
+                    <a href="/">
+                        <img src="./images/logo.png" alt="">
+                    </a>
+                </h1>
+                <nav class="gnb">
+                    <ul>
+                        <li><a href="">도서관안내</a></li>
+                        <li><a href="">자료이용</a></li>
+                        <li><a href="">시설이용</a></li>
+                        <li><a href="">연구·학습지원</a></li>
+                        <li><a href="">디지털컬렉션</a></li>
+                    </ul>
+                </nav>
+                <button class="mopen">
+                    <span class="material-symbols-outlined icon">
+                        menu
+                    </span>
+                </button>
+                <div class="sub_gnb">
+                    <div class="side_menu">
+                        <a href="">
+                            로그인
+                        </a>
+                        <a href="">
+                            ENG
+                        </a>
+                    </div>
+                    <div class="icon_menu">
+                        <a href="">
+                            <span class="material-symbols-outlined">
+                                search
+                            </span>
+                        </a>
+                        <a href="">
+                            <span class="material-symbols-outlined">
+                                menu
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main id="content">
+            <section class="main_slide">
+                <h2 class="blind">메인슬라이드</h2>
+                <div class="swiper main_slide_wrap">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="itm itm01">
+                                <img src="./images/main_slide04.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="itm itm02">
+                                <img src="./images/main_slide05.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="itm itm03">
+                                <img src="./images/main_slide06.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="search_area">
+                    <select class="search_select">
+                        <option value="search_title">통합검색</option>
+                        <option value="map_info">도서관안내</option>
+                        <option value="book_info">자료이용</option>
+                        <option value="cafe_info">시설이용</option>
+                    </select>
+                    <input type="text" name="q" title="검색어 입력" class="typo" placeholder="검색어를 입력하세요.">
+                    <button class="button">검색</button>
+                    <div class="slide_btn_box">
+                        <div class="slide_btn">
+                            <a href="">상세검색</a>
+                        </div>
+                        <div class="slide_btn">
+                            <a href="">자료조사</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main_link">
+                <h2 class="blind">메인링크</h2>
+                <div class="inner link_box">
+                    <a href="" class="link_first">
+                        <div class="link_box_txt on">
+                            <strong>추천학술정보</strong>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="link_box_txt">
+                            <strong>컬렉션/전자책</strong>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="link_box_txt">
+                            <strong>학과전담서비스</strong>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="link_box_txt">
+                            <strong>이용자별안내</strong>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="link_box_txt">
+                            <strong>교외접속</strong>
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="link_box_txt">
+                            <strong>1:1문의</strong>
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section class="main_info">
+                <h2 class="blind">메인인포</h2>
+                <div class="inner info_wrap">
+                    <div class="info_table">
+                        <div class="tit_box">
+                            <strong>이용시간</strong>
+                            <span>토요일/공휴일 휴실</span>
+                            <div class="add_box">
+                                <a href="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="info_btn_box">
+                            <div class="info_btn on">
+                                <a href="">자료실이용</a>
+                            </div>
+                            <div class="info_btn">
+                                <a href="">열람실이용</a>
+                            </div>
+                        </div>
+                        <div class="info_table_wrap">
+                            <table class="info_left_table">
+                                <caption>도서관이용시간</caption>
+                                <colgroup>
+                                    <col style="width: 50%">
+                                    <col style="width: 50%">
+                                </colgroup>
+                                <thead class="info_table_tit">
+                                    <tr>
+                                        <th>아산도서관 본관</th>
+                                        <th>아산도서관 신관</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>열린열람실 5:00~24:00</td>
+                                        <th>창의열람실 5:00~24:00</th>
+                                    </tr>
+                                    <tr>
+                                        <td>북라운지 9:00~21:00</td>
+                                        <th>대출실 9:00~21:00</th>
+                                    </tr>
+                                    <tr>
+                                        <td>예술자료실 9:00~21:00</td>
+                                        <th>어문학자료실 9:00~21:00</th>
+                                    </tr>
+                                    <tr>
+                                        <td>톡라운지 9:00~21:00</td>
+                                        <th>경영자료실 9:00~21:00</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="info_right_table">
+                                <caption>도서관이용시간</caption>
+                                <colgroup>
+                                    <col style="width: 50%">
+                                    <col style="width: 50%">
+                                </colgroup>
+                                <thead class="info_table_tit">
+                                    <tr>
+                                        <th>방학중</th>
+                                        <th>학기중</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td rowspan='4'>9:00~21:00</td>
+                                        <th rowspan='4'>9:00~17:00</th>
+                                    </tr>
+                                    <tr>
+                                        <!-- <td></td> -->
+                                        <!-- <th></th> -->
+                                    </tr>
+                                    <tr>
+                                        <!-- <td></td> -->
+                                        <!-- <th></th> -->
+                                    </tr>
+                                    <tr>
+                                        <!-- <td></td> -->
+                                        <!-- <th></th> -->
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                    <div class="info_notice">
+                        <div class="tit_box">
+                            <strong>공지사항</strong>
+                            <div class="add_box">
+                                <a href="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <ul class="list">
+                            <li>
+                                <a href=""><span>열린열람실 유실물 보관 공고 (~1/26까지)</span></a>
+                                <p>2024.01.10</p>
+                            </li>
+                            <li>
+                                <a href=""><span>신정 중앙도서관 이용안내</span></a>
+                                <p>2023.12.29</p>
+                            </li>
+                            <li>
+                                <a href=""><span>[학위논문] 2023-2 학위논문 제출 안내(12.27~01.07)</span></a>
+                                <p>2024.01.07</p>
+                            </li>
+                            <li>
+                                <a href=""><span>성탄절 중앙도서관 이용안내</span></a>
+                                <p>2023.12.22</p>
+                            </li>
+                            <li>
+                                <a href=""><span>[온라인 교육] Merry EndNote Day! EndNote와 함께 즐거운 성탄절 되세요~~!!</span></a>
+                                <p>2023.12.21</p>
+                            </li>
+                            <li>
+                                <a href=""><span>학내 시스템 점검에 따른 도서관 및 학내 웹서비스 중지 예정 안내 12.14 (목) 21:00 ~ 15 (금) 03:00
+                                        까지</span></a>
+                                <p>2023.12.12</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="info_plan">
+                        <div class="tit_box">
+                            <strong>도서관 일정</strong>
+                            <div class="add_box">
+                                <a href="">
+                                    <span class="material-symbols-outlined">
+                                        add
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <ul class="list">
+                            <li>
+                                <a href=""><span>[행사] 책 읽는 캠퍼스 2학기 [독서기행] 프로그램 안내</span></a>
+                                <p>2024.01.04</p>
+                            </li>
+                            <li>
+                                <a href=""><span>2023 울산대학교 교수 신작저서 전시회 안내(~12/30)</span></a>
+                                <p>2023.12.28</p>
+                            </li>
+                            <li>
+                                <a href=""><span>[행사] 책 읽는 캠퍼스 [북 콘서트] 프로그램 안내</span></a>
+                                <p>2023.12.26</p>
+                            </li>
+                            <li>
+                                <a href=""><span>[행사] 전자정보박람회 행사 상품 당첨자 안내</span></a>
+                                <p>2023.11.29</p>
+                            </li>
+                            <li>
+                                <a href=""><span>[테마도서] 나 혼자 잘산다</span></a>
+                                <p>2023.11.28</p>
+                            </li>
+                            <li>
+                                <a href=""><span>[행사] 전자정보박람회 행사 상품 당첨자 안내</span></a>
+                                <p>2023.11.24</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="main_best">
+                <h2 class="blind">메인베스트</h2>
+                <div class="inner">
+                    <div class="best_seller">
+                        <div class="tit_box">
+                            <strong>인기도서</strong>
+                        </div>
+                        <div class="main_best_slide">
+                            <div class="second-swiper best_slide_wrap">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide content">
+                                        <img src="./images/main_list01.jpg" alt="">
+                                        <span>내가 가진 것을 세상이 원하게 하라</span>
+                                    </div>
+                                    <div class="swiper-slide content">
+                                        <img src="./images/main_list02.jpg" alt="">
+                                        <span>황금종이</span>
+                                    </div>
+                                    <div class="swiper-slide content">
+                                        <a href=""><img src="./images/main_list03.jpg" alt=""></a>
+                                        <span>참 괜찮은 태도</span>
+                                    </div>
+                                    <div class="swiper-slide content">
+                                        <a href=""> <img src="./images/main_list04.jpg" alt=""></a>
+                                        <span>아몬드</span>
+                                    </div>
+                                    <div class="swiper-slide content">
+                                        <a href=""> <img src="./images/main_list05.jpg" alt=""></a>
+                                        <span>인문건축기행</span>
+                                    </div>
+                                    <div class="swiper-slide content">
+                                        <a href=""> <img src="./images/main_list06.jpg" alt=""></a>
+                                        <span>리얼 교토</span>
+                                    </div>
+                                    <div class="swiper-slide content">
+                                        <a href=""> <img src="./images/main_list07.jpg" alt=""></a>
+                                        <span>챗 GPT</span>
+                                    </div>
+                                </div>
+                                <div class="slide_btn">
+                                    <div class="swiper-button-pp">
+                                        <span class="material-symbols-outlined">
+                                            arrow_back
+                                        </span>
+                                    </div>
+                                    <div class="swiper-button-nn">
+                                        <span class="material-symbols-outlined">
+                                            arrow_forward
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="best_info">
+                        <div class="img_box">
+                            <a href="">
+                                <div class="itm itm01">
+                                    <div class="itm_txt_box">
+                                        <div class="itm_tit">
+                                            <strong><span>집중열람실</span> 휴실 및</strong>
+                                            <strong>신관소음 발생 안내</strong>
+                                        </div>
+                                        <p>• 휴실기간 : 2023.12.26(화)~2024.02.29(목)<br />
+                                            • 장소 : 아산도서관 신관 1층 집중열람실
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="">
+                                <div class="itm itm02">
+                                    <div class="itm_txt_box">
+                                        <div class="itm_tit">
+                                            <strong><span>열린열람실</span></strong>
+                                            <strong>운영중단 안내</strong>
+                                        </div>
+                                        <p>• 휴실기간 : 2023.12.26(화)~<br />
+                                            • 장소 : 아산도서관 본관 1층 열린열람실
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer">
+            <div class="footer_top">
+                <div class="inner">
+                    <div class="f_gnb">
+                        <ul>
+                            <li><a href="">RISS</a></li>
+                            <li><a href="">ScienceON</a></li>
+                            <li><a href="">국립중앙도서관</a></li>
+                            <li><a href="">국회도서관</a></li>
+                            <li><a href="">dCollection</a></li>
+                            <li><a href="">UOU repository</a></li>
+                            <li><a href="">울산대학교</a></li>
+                            <li><a href="">UWINS(학생포털)</a></li>
+                            <li><a href="">UWIN(교직원포털)</a></li>
+                            <li><a href="">UCLASS</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="fopen">
+                    <span class="material-symbols-outlined icon">
+                        menu
+                    </span>
+                </button>
+            </div>
+            <div class="footer_bottom">
+                <div class="inner">
+                    <div class="bottom_top">
+                        <img src="./images/footer-logo.png" alt="">
+                        <ul>
+                            <li><a href="">개인정보처리방침</a></li>
+                            <li><a href="">이메일무단수집거부</a></li>
+                            <li><a href="">찾아오시는길</a></li>
+                            <li><a href="">서비스별연락처</a></li>
+                        </ul>
+                        <div class="bottom_icon_box">
+                            <div class="icon_wrap">
+                                <div class="icon">
+                                    <i class="xi-facebook"></i>
+                                    <i class="xi-instagram"></i>
+                                    <i class="xi-youtube-play"></i>
+                                    <i class="xi-kakaotalk"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom_bottom">
+                        <div class="bottom_txt">
+                            <p>(44610) 울산광역시 남구 대학로 93 울산대학교 중앙도서관 Tel. 052-259-2481</p>
+                            <span>&copy; UNIVERSITY OF ULSAN CENTRAL LIBRARY. ALL RIGHTS RESERVED.</span>
+                        </div>
+                        <div class="family_site">
+                            <select name="#" id="#">
+                                <option>FAMILY SITE</option>
+                                <option value="1">울산대학교</option>
+                                <option value="1">중앙도서관</option>
+                                <option value="1">학생포털</option>
+                                <option value="1">교직원포털</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <button class="to_top">
+            <i class="xi-arrow-top"></i>
+        </button>
+    </div>
+</body>
+
+</html>
